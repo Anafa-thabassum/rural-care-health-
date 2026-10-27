@@ -8,7 +8,7 @@
     "dev:web": "vite dev",
     "dev:api": "tsx watch server/index.ts",
     "start:api": "tsx server/index.ts",
-    "build": "vite build && node scripts/create-static-index.mjs",
+    "build": "vite build",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
