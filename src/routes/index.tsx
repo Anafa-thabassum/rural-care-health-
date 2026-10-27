@@ -177,7 +177,7 @@ function LoginPage() {
             </div>
           ) : null}
           <p className="mt-4 text-xs text-ink-soft text-center">
-            Secure access backed by the RuralCare API and MongoDB.
+            Frontend demo mode — no database required.
           </p>
         </form>
       </div>

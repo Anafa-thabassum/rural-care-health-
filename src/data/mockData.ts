@@ -54,6 +54,7 @@ export interface Worker {
   role: string;
   clinic: string;
   phone: string;
+  patientId?: string;
 }
 
 export const mockWorker: Worker = {
